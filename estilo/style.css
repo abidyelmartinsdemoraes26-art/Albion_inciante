@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+body {
+    background-color: white;
+    font-family: Georgia, serif;
+}
+
 .botao_de_conteudo {
     background-color: rgba(10, 217, 217, 0.415);
     color: black;
@@ -11,4 +16,25 @@
 
 :hover.botao_de_conteudo {
     text-decoration: underline;
+}
+main {
+
+    background-color: rgb(215, 236, 243);
+
+    border-radius: 10px ;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.399);
+
+    width: 500px;
+    min-height: 700px;
+
+    padding: 60px 60px;
+    padding-left: auto;
+
+    margin: auto
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.202);
+    margin: auto;
 }
