@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.botao_de_conteudo {
+    background-color: rgba(10, 217, 217, 0.415);
+    color: black;
+    margin: auto;
+    border-radius: 5px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+:hover.botao_de_conteudo {
+    text-decoration: underline;
+}
